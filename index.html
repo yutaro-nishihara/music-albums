@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お気に入りアルバムコレクション</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>お気に入りアルバムコレクション</h1>
+      <div class="filters">
+        <div class="filter-group">
+          <label for="artist-filter">アーティスト:</label>
+          <select id="artist-filter">
+            <option value="all">すべて</option>
+            <!-- JavaScriptで動的に追加 -->
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="year-filter">リリース年:</label>
+          <select id="year-filter">
+            <option value="all">すべて</option>
+            <!-- JavaScriptで動的に追加 -->
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="albums-container" class="albums-grid">
+        <!-- アルバムはJavaScriptで動的に追加されます -->
+      </div>
+    </main>
+
+    <div id="album-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-header">
+          <img id="modal-cover" src="" alt="アルバムカバー" />
+          <div class="modal-album-info">
+            <h2 id="modal-title"></h2>
+            <p id="modal-artist"></p>
+            <p id="modal-year"></p>
+            <a id="modal-spotify" href="" target="_blank" class="spotify-link"> Spotifyで聴く </a>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h3>収録曲</h3>
+          <ol id="modal-tracks">
+            <!-- 曲はJavaScriptで動的に追加されます -->
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 お気に入りアルバムコレクション</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
