@@ -21,7 +21,7 @@
       {
         "id": 1,
         "artistId": 1,
-        "title": "Folklore",
+        "title": "New Dance 1 (Remastered)",
         "year": 1990,
         "cover": "images/hyun_jin_young_newdance1.jpeg",
         "spotifyUrl": "https://open.spotify.com/intl-ja/album/1ymZ2yWWeuUNTx26bJlHrn?si=vyJdksfsRPus4D1a4315ZA",
@@ -136,81 +136,6 @@
           "Respect",
           "We are Bulletproof : the Eternal",
           "Outro : Ego"
-        ]
-      },
-      {
-        "id": 6,
-        "artistId": 4,
-        "title": "THE BOOK",
-        "year": 2021,
-        "cover": "https://via.placeholder.com/300/ff3366/ffffff?text=THE+BOOK",
-        "spotifyUrl": "https://open.spotify.com/album/1nH3IHR2Bx3q4OkAkBFvb9",
-        "tracks": [
-          "怪物",
-          "夜に駆ける",
-          "あの夢をなぞって",
-          "ハルジオン",
-          "群青",
-          "ハルカ",
-          "祝福",
-          "もう少しだけ",
-          "アンコール",
-          "三原色",
-          "優しい彗星",
-          "もしも命が描けたら",
-          "RGB",
-          "大正浪漫"
-        ]
-      },
-      {
-        "id": 7,
-        "artistId": 4,
-        "title": "夕刻、某、花惑い",
-        "year": 2023,
-        "cover": "https://via.placeholder.com/300/66ccff/ffffff?text=夕刻、某、花惑い",
-        "spotifyUrl": "https://open.spotify.com/album/7rOgTtlzZ4zQs44yS4WJkB",
-        "tracks": [
-          "アドベンチャー",
-          "セブンティーン",
-          "勇者",
-          "ミスター",
-          "見っけ",
-          "アイドル",
-          "夜に駆ける (English ver.)",
-          "たぶん",
-          "もう一度",
-          "夕刻、某、花惑い"
-        ]
-      },
-      {
-        "id": 8,
-        "artistId": 1,
-        "title": "1989 (Taylor's Version)",
-        "year": 2023,
-        "cover": "https://via.placeholder.com/300/33cccc/ffffff?text=1989",
-        "spotifyUrl": "https://open.spotify.com/album/64LU4c1nfjz1t4VnGhagcg",
-        "tracks": [
-          "Welcome To New York (Taylor's Version)",
-          "Blank Space (Taylor's Version)",
-          "Style (Taylor's Version)",
-          "Out Of The Woods (Taylor's Version)",
-          "All You Had To Do Was Stay (Taylor's Version)",
-          "Shake It Off (Taylor's Version)",
-          "I Wish You Would (Taylor's Version)",
-          "Bad Blood (Taylor's Version)",
-          "Wildest Dreams (Taylor's Version)",
-          "How You Get The Girl (Taylor's Version)",
-          "This Love (Taylor's Version)",
-          "I Know Places (Taylor's Version)",
-          "Clean (Taylor's Version)",
-          "Wonderland (Taylor's Version)",
-          "You Are In Love (Taylor's Version)",
-          "New Romantics (Taylor's Version)",
-          "Slut! (Taylor's Version) (From The Vault)",
-          "Say Don't Go (Taylor's Version) (From The Vault)",
-          "Now That We Don't Talk (Taylor's Version) (From The Vault)",
-          "Suburban Legends (Taylor's Version) (From The Vault)",
-          "Is It Over Now? (Taylor's Version) (From The Vault)"
         ]
       }
     ]
