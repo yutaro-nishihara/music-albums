@@ -2,19 +2,19 @@
     "artists": [
       {
         "id": 1,
-        "name": "Taylor Swift"
+        "name": "HYUN JIN YOUNG"
       },
       {
         "id": 2,
-        "name": "Kenshi Yonezu"
+        "name": "YOO YOUNG-JIN"
       },
       {
         "id": 3,
-        "name": "BTS"
+        "name": "H.O.T"
       },
       {
         "id": 4,
-        "name": "YOASOBI"
+        "name": "S.E.S"
       }
     ],
     "albums": [
@@ -22,26 +22,19 @@
         "id": 1,
         "artistId": 1,
         "title": "Folklore",
-        "year": 2020,
-        "cover": "images/aespa_whiplash.jpeg",
-        "spotifyUrl": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+        "year": 1990,
+        "cover": "images/hyun_jin_young_newdance1.jpeg",
+        "spotifyUrl": "https://open.spotify.com/intl-ja/album/1ymZ2yWWeuUNTx26bJlHrn?si=vyJdksfsRPus4D1a4315ZA",
         "tracks": [
-          "the 1",
-          "cardigan",
-          "the last great american dynasty",
-          "exile (feat. Bon Iver)",
-          "my tears ricochet",
-          "mirrorball",
-          "seven",
-          "august",
-          "this is me trying",
-          "illicit affairs",
-          "invisible string",
-          "mad woman",
-          "epiphany",
-          "betty",
-          "peace",
-          "hoax"
+          "Sad Mannequin",
+          "Sexy Lady",
+          "Finding Love",
+          "Sad Mannequin (Inst.)",
+          "Stumbling World",
+          "Maybe A Dream",
+          "Sexy Lady (Rap Ver.)",
+          "Memories And Pain",
+          "Trip"
         ]
       },
       {
