@@ -15,6 +15,10 @@
       {
         "id": 4,
         "name": "S.E.S"
+      },
+      {
+        "id": 5,
+        "name": "東方神起"
       }
     ],
     "albums": [
@@ -38,104 +42,27 @@
         ]
       },
       {
-        "id": 2,
-        "artistId": 1,
-        "title": "Midnights",
-        "year": 2022,
-        "cover": "https://via.placeholder.com/300/9966cc/ffffff?text=Midnights",
-        "spotifyUrl": "https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3",
+        "id": "2",
+        "artistId": "5",
+        "title": "TRI-ANGLE",
+        "year": 2004,
+        "cover": "",
+        "spotifyUrl": "https://open.spotify.com/album/1013imXHa490acqEZkQpeX",
         "tracks": [
-          "Lavender Haze",
-          "Maroon",
-          "Anti-Hero",
-          "Snow On The Beach (feat. Lana Del Rey)",
-          "You're On Your Own, Kid",
-          "Midnight Rain",
-          "Question...?",
-          "Vigilante Shit",
-          "Bejeweled",
-          "Labyrinth",
-          "Karma",
-          "Sweet Nothing",
-          "Mastermind"
-        ]
-      },
-      {
-        "id": 3,
-        "artistId": 2,
-        "title": "STRAY SHEEP",
-        "year": 2020,
-        "cover": "https://via.placeholder.com/300/ff6633/ffffff?text=STRAY+SHEEP",
-        "spotifyUrl": "https://open.spotify.com/album/1cmk8ye5JIw68fyVeF2pOH",
-        "tracks": [
-          "カムパネルラ",
-          "Flamingo",
-          "感電",
-          "PLACEBO",
-          "パプリカ",
-          "馬と鹿",
-          "優しい人",
-          "Lemon",
-          "迷える羊",
-          "飯食った",
-          "にゃにや",
-          "共感覚",
-          "PLACEBO+",
-          "幽霊東京",
-          "Moonlight"
-        ]
-      },
-      {
-        "id": 4,
-        "artistId": 2,
-        "title": "BOOTLEG",
-        "year": 2018,
-        "cover": "https://via.placeholder.com/300/3366ff/ffffff?text=BOOTLEG",
-        "spotifyUrl": "https://open.spotify.com/album/3WqxhXNJDxOK6yCdPWTzFX",
-        "tracks": [
-          "砂の惑星",
-          "春雷",
-          "クラスメイト",
-          "ゴーゴー幽霊船",
-          "爱丽丝",
-          "ピースサイン",
-          "メトロノーム",
-          "打上花火",
-          "灰色と青",
-          "Moonlight",
-          "Nighthawks",
-          "Undercover",
-          "orion",
-          "かいじゅうのマーチ"
-        ]
-      },
-      {
-        "id": 5,
-        "artistId": 3,
-        "title": "MAP OF THE SOUL : 7",
-        "year": 2020,
-        "cover": "https://via.placeholder.com/300/000000/ffffff?text=MAP+OF+THE+SOUL+:+7",
-        "spotifyUrl": "https://open.spotify.com/album/6mJZTV8lCqnwftYZa94bXS",
-        "tracks": [
-          "Intro : Persona",
-          "Boy With Luv (feat. Halsey)",
-          "Make It Right",
-          "Jamais Vu",
-          "Dionysus",
-          "Interlude : Shadow",
-          "Black Swan",
-          "Filter",
-          "My Time",
-          "Louder than bombs",
-          "ON",
-          "UGH!",
-          "00:00 (Zero O'Clock)",
-          "Inner Child",
-          "Friends",
-          "Moon",
-          "Respect",
-          "We are Bulletproof : the Eternal",
-          "Outro : Ego"
+          "믿어요 (I believe…)",
+          "Thanks To",
+          "Tri-Angle (Extended ver.) (feat. BoA & The TRAX)",
+          "내 여자친구가 되어줄래?",
+          "Whatever They Say",
+          "Million Men",
+          "지금처럼",
+          "I Never Let Go",
+          "꼬마야",
+          "넌 언제나",
+          "HUG",
+          "My Little Princess",
+          "The Way U Are",
+          "Tri-Angle (TVXQ Ver.)"
         ]
       }
     ]

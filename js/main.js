@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // 年フィルターの設定
             setupYearFilter();
             
-            // アルバム一覧の表示
-            renderAlbums();
+            // アルバム一覧の表示（年ごと）
+            renderAlbumsByYear();
         })
         .catch(error => {
             console.error('エラー:', error);
@@ -104,12 +104,31 @@ function applyFilters() {
         return artistMatch && yearMatch;
     });
     
-    // アルバム一覧を再描画
-    renderAlbums();
+    // アルバム一覧を再描画（年ごと）
+    renderAlbumsByYear();
 }
 
-// アルバム一覧の描画
-function renderAlbums() {
+// アルバムを年ごとにグループ化する関数
+function groupAlbumsByYear(albums) {
+    const groupedAlbums = {};
+    
+    albums.forEach(album => {
+        const year = album.year;
+        
+        // グループが存在しなければ初期化
+        if (!groupedAlbums[year]) {
+            groupedAlbums[year] = [];
+        }
+        
+        // アルバムをそのグループに追加
+        groupedAlbums[year].push(album);
+    });
+    
+    return groupedAlbums;
+}
+
+// 年ごとにアルバム一覧を描画
+function renderAlbumsByYear() {
     const container = document.getElementById('albums-container');
     container.innerHTML = ''; // コンテナをクリア
     
@@ -118,25 +137,45 @@ function renderAlbums() {
         return;
     }
     
-    // 各アルバムをコンテナに追加
-    filteredAlbums.forEach(album => {
-        const artist = artists.find(a => a.id === album.artistId);
+    // アルバムを年ごとにグループ化
+    const groupedAlbums = groupAlbumsByYear(filteredAlbums);
+    
+    // 年を降順（最新の年から）でソート
+    const years = Object.keys(groupedAlbums).sort((a, b) => b - a);
+    
+    // 各年ごとにコンテナを作成
+    years.forEach(year => {
+        // 年の見出しを作成
+        const yearHeader = document.createElement('div');
+        yearHeader.className = 'year-header';
+        yearHeader.innerHTML = `<h2>${year}</h2>`;
+        container.appendChild(yearHeader);
         
-        const albumCard = document.createElement('div');
-        albumCard.className = 'album-card';
-        albumCard.innerHTML = `
-            <img src="${album.cover}" alt="${album.title}" class="album-cover">
-            <div class="album-info">
-                <h3 class="album-title">${album.title}</h3>
-                <p class="album-artist">${artist ? artist.name : 'Unknown'}</p>
-                <p class="album-year">${album.year}</p>
-            </div>
-        `;
+        // この年のアルバム用のグリッドを作成
+        const yearGrid = document.createElement('div');
+        yearGrid.className = 'albums-grid';
+        container.appendChild(yearGrid);
         
-        // アルバムカードをクリックしたときの処理
-        albumCard.addEventListener('click', () => openAlbumDetails(album));
-        
-        container.appendChild(albumCard);
+        // アルバムを表示
+        groupedAlbums[year].forEach(album => {
+            const artist = artists.find(a => a.id === album.artistId);
+            
+            const albumCard = document.createElement('div');
+            albumCard.className = 'album-card';
+            albumCard.innerHTML = `
+                <img src="${album.cover}" alt="${album.title}" class="album-cover">
+                <div class="album-info">
+                    <h3 class="album-title">${album.title}</h3>
+                    <p class="album-artist">${artist ? artist.name : 'Unknown'}</p>
+                    <p class="album-year">${album.year}</p>
+                </div>
+            `;
+            
+            // アルバムカードをクリックしたときの処理
+            albumCard.addEventListener('click', () => openAlbumDetails(album));
+            
+            yearGrid.appendChild(albumCard);
+        });
     });
 }
 
