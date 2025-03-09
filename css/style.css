@@ -52,7 +52,7 @@ select {
 /* メインコンテンツ */
 main {
     padding: 0 16px;
-    max-width: 1200px;
+    max-width: 800px; /* 幅を狭くして縦並びに誘導 */
     margin: 0 auto;
 }
 
@@ -64,6 +64,8 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
+    width: 100%; /* 幅を100%に設定して横幅いっぱいに */
+    display: block; /* 縦並び表示を確実に */
 }
 
 /* 年の見出しスタイル */
@@ -78,7 +80,7 @@ main {
 /* アルバムグリッド */
 .albums-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* 2列グリッドに固定 */
     gap: 16px;
     padding: 0;
 }

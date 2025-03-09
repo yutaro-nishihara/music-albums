@@ -127,7 +127,7 @@ function groupAlbumsByYear(albums) {
     return groupedAlbums;
 }
 
-// 年ごとにアルバム一覧を描画
+// 年ごとにアルバム一覧を描画（縦並び）
 function renderAlbumsByYear() {
     const container = document.getElementById('albums-container');
     container.innerHTML = ''; // コンテナをクリア
@@ -143,7 +143,7 @@ function renderAlbumsByYear() {
     // 年を降順（最新の年から）でソート
     const years = Object.keys(groupedAlbums).sort((a, b) => b - a);
     
-    // 各年ごとにセクションを作成
+    // 各年ごとにセクションを作成（縦並び）
     years.forEach(year => {
         // 年のセクションを作成
         const yearSection = document.createElement('section');
