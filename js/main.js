@@ -127,10 +127,11 @@ function groupAlbumsByYear(albums) {
     return groupedAlbums;
 }
 
-// 年ごとにアルバム一覧を描画（縦並び）
+// 年ごとにアルバム一覧を描画
 function renderAlbumsByYear() {
     const container = document.getElementById('albums-container');
     container.innerHTML = ''; // コンテナをクリア
+    container.className = 'albums-container'; // 縦並びコンテナのクラスを追加
     
     if (filteredAlbums.length === 0) {
         container.innerHTML = '<p class="no-results">該当するアルバムがありません</p>';
@@ -143,12 +144,11 @@ function renderAlbumsByYear() {
     // 年を降順（最新の年から）でソート
     const years = Object.keys(groupedAlbums).sort((a, b) => b - a);
     
-    // 各年ごとにセクションを作成（縦並び）
+    // 各年ごとにセクションを作成
     years.forEach(year => {
         // 年のセクションを作成
-        const yearSection = document.createElement('section');
+        const yearSection = document.createElement('div');
         yearSection.className = 'year-section';
-        container.appendChild(yearSection);
         
         // 年の見出しを作成
         const yearHeader = document.createElement('h2');
@@ -159,7 +159,6 @@ function renderAlbumsByYear() {
         // この年のアルバム用のグリッドを作成
         const albumsGrid = document.createElement('div');
         albumsGrid.className = 'albums-grid';
-        yearSection.appendChild(albumsGrid);
         
         // アルバムを表示
         groupedAlbums[year].forEach(album => {
@@ -180,6 +179,12 @@ function renderAlbumsByYear() {
             
             albumsGrid.appendChild(albumCard);
         });
+        
+        // グリッドをセクションに追加
+        yearSection.appendChild(albumsGrid);
+        
+        // 完成したセクションをコンテナに追加
+        container.appendChild(yearSection);
     });
 }
 
