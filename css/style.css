@@ -79,8 +79,8 @@ main {
 
 /* アルバムグリッド */
 .albums-grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2列グリッド */
     gap: 16px;
     padding: 0;
 }
@@ -93,6 +93,8 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
+    flex-direction: column; /* カード内は縦並びに戻す */
+
 }
 
 .album-card:hover {
