@@ -54,6 +54,7 @@ main {
     padding: 0 16px;
     max-width: 800px; /* 幅を狭くして縦並びに誘導 */
     margin: 0 auto;
+    display: block;
 }
 
 /* 年セクションのスタイル */
