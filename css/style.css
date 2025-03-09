@@ -128,7 +128,7 @@ select {
 
 .close-button {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;

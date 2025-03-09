@@ -1,213 +1,201 @@
 {
     "artists": [
-      {
-        "id": 1,
-        "name": "HYUN JIN YOUNG"
-      },
-      {
-        "id": 2,
-        "name": "YOO YOUNG-JIN"
-      },
-      {
-        "id": 3,
-        "name": "H.O.T"
-      },
-      {
-        "id": 4,
-        "name": "S.E.S"
-      },
-      {
-        "id": 5,
-        "name": "SHINHWA"
-      },
-      {
-        "id": 6,
-        "name": "SHINHWA"
-      },
-      {
-        "id": 7,
-        "name": "Fly To The Sky"
-      },
-      {
-        "id": 8,
-        "name": "BoA"
-      },
-      {
-        "id": 9,
-        "name": "KANGTA"
-      },
-      {
-        "id": 10,
-        "name": "M.I.L.K"
-      },
-      {
-        "id": 11,
-        "name": "BLACK BEAT"
-      },
-      {
-        "id": 12,
-        "name": "TXVQ!"
-      },
-      {
-        "id": 13,
-        "name": "TraxX"
-      },
-      {
-        "id": 14,
-        "name": "TheGrace"
-      },
-      {
-        "id": 15,
-        "name": "SUPER JUNIOR"
-      },
-      {
-        "id": 16,
-        "name": "GIRL'S GENERATION"
-      },
-      {
-        "id": 17,
-        "name": "SUPER JUNIOR-T"
-      },
-      {
-        "id": 18,
-        "name": "SUPER JUNIOR-M"
-      },
-      {
-        "id": 19,
-        "name": "SUPER JUNIOR-Happy"
-      },
-      {
-        "id": 20,
-        "name": "SHINee"
-      },
-      {
-        "id": 21,
-        "name": "f(x)"
-      },
-      {
-        "id": 22,
-        "name": "SUPER JUNIOR-D&E"
-      },
-      {
-        "id": 23,
-        "name": "EXO"
-      },
-      {
-        "id": 24,
-        "name": "RedVelvet"
-      },
-      {
-        "id": 25,
-        "name": "KYUHYUN"
-      },
-      {
-        "id": 26,
-        "name": "TAEMIN"
-      },
-      {
-        "id": 27,
-        "name": "GIRL'S GENERATION-TTS"
-      },
-      {
-        "id": 28,
-        "name": "JONGHYUN"
-      },
-      {
-        "id": 29,
-        "name": "AMBER"
-      },
-      {
-        "id": 30,
-        "name": "TAEYEON"
-      },
-      {
-        "id": 31,
-        "name": "RYEOWOOK"
-      },
-      {
-        "id": 32,
-        "name": "YESUNG"
-      },
-      {
-        "id": 33,
-        "name": "TIFFANY"
-      },
-      {
-        "id": 34,
-        "name": "LUNA"
-      },
-      {
-        "id": 35,
-        "name": "NCT127"
-      },
-      {
-        "id": 36,
-        "name": "NCT DREAM"
-      },
-      {
-        "id": 37,
-        "name": "EXO-CBX"
-      },
-      {
-        "id": 38,
-        "name": "EXO-CBX"
-      },
-      {
-        "id": 39,
-        "name": "SEOHYUN"
-      },
-      {
-        "id": 40,
-        "name": "HYOYEON"
-      },
-      {
-        "id": 41,
-        "name": "GIRL'S GENERATION-Oh!GG"
-      },
-      {
-        "id": 42,
-        "name": "KEY"
-      },
-      {
-        "id": 43,
-        "name": "ONEW"
-      },
-      {
-        "id": 44,
-        "name": "KEY"
-      },
-      {
-        "id": 45,
-        "name": "CHEN"
-      },
-      {
-        "id": 46,
-        "name": "WayV"
-      },
-      {
-        "id": 47,
-        "name": "YOONA"
-      },
-      {
-        "id": 48,
-        "name": "SULLI"
-      },
-      {
-        "id": 49,
-        "name": "BAEKHYUN"
-      },
-      {
-        "id": 50,
-        "name": "EXO-SC"
-      },
-      {
-        "id": 51,
-        "name": "RAIDEN"
-      },
-      {
-        "id": 52,
-        "name": "SuperM"
-      }
+        {
+          "id": 1,
+          "name": "HYUN JIN YOUNG"
+        },
+        {
+          "id": 2,
+          "name": "YOO YOUNG-JIN"
+        },
+        {
+          "id": 3,
+          "name": "H.O.T"
+        },
+        {
+          "id": 4,
+          "name": "S.E.S"
+        },
+        {
+          "id": 5,
+          "name": "SHINHWA"
+        },
+        {
+          "id": 6,
+          "name": "Fly To The Sky"
+        },
+        {
+          "id": 7,
+          "name": "BoA"
+        },
+        {
+          "id": 8,
+          "name": "KANGTA"
+        },
+        {
+          "id": 9,
+          "name": "M.I.L.K"
+        },
+        {
+          "id": 10,
+          "name": "BLACK BEAT"
+        },
+        {
+          "id": 11,
+          "name": "TXVQ!"
+        },
+        {
+          "id": 12,
+          "name": "TraxX"
+        },
+        {
+          "id": 13,
+          "name": "TheGrace"
+        },
+        {
+          "id": 14,
+          "name": "SUPER JUNIOR"
+        },
+        {
+          "id": 15,
+          "name": "GIRL'S GENERATION"
+        },
+        {
+          "id": 16,
+          "name": "SUPER JUNIOR-T"
+        },
+        {
+          "id": 17,
+          "name": "SUPER JUNIOR-M"
+        },
+        {
+          "id": 18,
+          "name": "SUPER JUNIOR-Happy"
+        },
+        {
+          "id": 19,
+          "name": "SHINee"
+        },
+        {
+          "id": 20,
+          "name": "f(x)"
+        },
+        {
+          "id": 21,
+          "name": "SUPER JUNIOR-D&E"
+        },
+        {
+          "id": 22,
+          "name": "EXO"
+        },
+        {
+          "id": 23,
+          "name": "RedVelvet"
+        },
+        {
+          "id": 24,
+          "name": "KYUHYUN"
+        },
+        {
+          "id": 25,
+          "name": "TAEMIN"
+        },
+        {
+          "id": 26,
+          "name": "GIRL'S GENERATION-TTS"
+        },
+        {
+          "id": 27,
+          "name": "JONGHYUN"
+        },
+        {
+          "id": 28,
+          "name": "AMBER"
+        },
+        {
+          "id": 29,
+          "name": "TAEYEON"
+        },
+        {
+          "id": 30,
+          "name": "RYEOWOOK"
+        },
+        {
+          "id": 31,
+          "name": "YESUNG"
+        },
+        {
+          "id": 32,
+          "name": "TIFFANY"
+        },
+        {
+          "id": 33,
+          "name": "LUNA"
+        },
+        {
+          "id": 34,
+          "name": "NCT127"
+        },
+        {
+          "id": 35,
+          "name": "NCT DREAM"
+        },
+        {
+          "id": 36,
+          "name": "EXO-CBX"
+        },
+        {
+          "id": 37,
+          "name": "SEOHYUN"
+        },
+        {
+          "id": 38,
+          "name": "HYOYEON"
+        },
+        {
+          "id": 39,
+          "name": "GIRL'S GENERATION-Oh!GG"
+        },
+        {
+          "id": 40,
+          "name": "KEY"
+        },
+        {
+          "id": 41,
+          "name": "ONEW"
+        },
+        {
+          "id": 42,
+          "name": "CHEN"
+        },
+        {
+          "id": 43,
+          "name": "WayV"
+        },
+        {
+          "id": 44,
+          "name": "YOONA"
+        },
+        {
+          "id": 45,
+          "name": "SULLI"
+        },
+        {
+          "id": 46,
+          "name": "BAEKHYUN"
+        },
+        {
+          "id": 47,
+          "name": "EXO-SC"
+        },
+        {
+          "id": 48,
+          "name": "RAIDEN"
+        },
+        {
+          "id": 49,
+          "name": "SuperM"
+        }
 
 
     ],
@@ -229,6 +217,30 @@
           "Sexy Lady (Rap Ver.)",
           "Memories And Pain",
           "Trip"
+        ]
+      },
+      {
+        "id": "2",
+        "artistId": "5",
+        "title": "TRI-ANGLE",
+        "year": 2004,
+        "cover": "",
+        "spotifyUrl": "https://open.spotify.com/album/1013imXHa490acqEZkQpeX",
+        "tracks": [
+          "믿어요 (I believe…)",
+          "Thanks To",
+          "Tri-Angle (Extended ver.) (feat. BoA & The TRAX)",
+          "내 여자친구가 되어줄래?",
+          "Whatever They Say",
+          "Million Men",
+          "지금처럼",
+          "I Never Let Go",
+          "꼬마야",
+          "넌 언제나",
+          "HUG",
+          "My Little Princess",
+          "The Way U Are",
+          "Tri-Angle (TVXQ Ver.)"
         ]
       },
       {
