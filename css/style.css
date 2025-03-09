@@ -80,6 +80,7 @@ main {
 /* アルバムグリッド */
 .albums-grid {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 16px;
     padding: 0;
