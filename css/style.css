@@ -15,8 +15,8 @@ body {
 
 /* ヘッダー部分 */
 header {
-    background-color: #1db954; /* Spotify風の緑色 */
-    color: white;
+    background-color: #FADADF;
+    color: #222222;
     padding: 20px;
     text-align: center;
     margin-bottom: 16px;
@@ -27,11 +27,12 @@ h1 {
     font-size: 1.8rem;
 }
 
-/* フィルター部分 - 白枠を削除 */
+/* フィルター部分 */
 .filters {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: left;
     gap: 15px;
     margin-top: 15px;
 }
