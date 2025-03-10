@@ -221,7 +221,7 @@
       },
       {
         "id": "2",
-        "artistId": "5",
+        "artistId": "11",
         "title": "TRI-ANGLE",
         "year": 2004,
         "cover": "images/tvxq_tri_angle.jpeg",
@@ -244,28 +244,28 @@
         ]
       },
       {
-        "id": "2",
-        "artistId": "5",
-        "title": "TRI-ANGLE",
+        "id": "3",
+        "artistId": "7",
+        "title": "LOVE & HONESTY",
         "year": 2004,
-        "cover": "images/tvxq_tri_angle.jpeg",
-        "spotifyUrl": "https://open.spotify.com/album/1013imXHa490acqEZkQpeX",
+        "cover": "",
+        "spotifyUrl": "https://open.spotify.com/album/7bHEsVSq63nLFv5y2rK3wR",
         "tracks": [
-          "믿어요 (I believe…)",
-          "Thanks To",
-          "Tri-Angle (Extended ver.) (feat. BoA & The TRAX)",
-          "내 여자친구가 되어줄래?",
-          "Whatever They Say",
-          "Million Men",
-          "지금처럼",
-          "I Never Let Go",
-          "꼬마야",
-          "넌 언제나",
-          "HUG",
-          "My Little Princess",
-          "The Way U Are",
-          "Tri-Angle (TVXQ Ver.)"
+          "Rock With You",
+          "Shine We Are!",
+          "SOME DAY ONE DAY feat. VERBAL (m-flo)",
+          "LOVE & HONESTY",
+          "Midnight Parade",
+          "Be the one",
+          "EXPECT",
+          "OVER ～across the time～",
+          "心の手紙",
+          "DOUBLE",
+          "Easy To Be Hard",
+          "Song With No Name ～名前のない歌～",
+          "Milky Way ～君の歌～"
         ]
       }
+      
     ]
   }
