@@ -220,8 +220,8 @@
         ]
       },
       {
-        "id": "2",
-        "artistId": "11",
+        "id": 2,
+        "artistId": 11,
         "title": "TRI-ANGLE",
         "year": 2004,
         "cover": "images/tvxq_tri_angle.jpeg",
@@ -244,8 +244,8 @@
         ]
       },
       {
-        "id": "3",
-        "artistId": "7",
+        "id": 3,
+        "artistId": 7,
         "title": "LOVE & HONESTY",
         "year": 2004,
         "cover": "images/boa_love_honesty.jpeg",
@@ -264,6 +264,27 @@
           "Easy To Be Hard",
           "Song With No Name ～名前のない歌～",
           "Milky Way ～君の歌～"
+        ]
+      },
+      {
+        "id": 4,
+        "artistId": 6,
+        "title": "Gravity",
+        "year": 2004,
+        "cover": "",
+        "spotifyUrl": "https://open.spotify.com/intl-ja/album/6G8nGHAyGHq5dg3SJrQLDl",
+        "tracks": [
+          "Gravity",
+          "사랑을 몰라요 (Don't Know Love)",
+          "이해해요 (I Understand)",
+          "피 (悲) (Sadness)",
+          "별 (Star)",
+          "Missing You",
+          "Stay",
+          "습관 (Habit)",
+          "기도 (Prayer)",
+          "Tomorrow",
+          "For You"
         ]
       }
       
